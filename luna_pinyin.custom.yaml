@@ -10,4 +10,50 @@ patch:
     - derive/ong$/on/                  # zhonguo => zhong guo
     - derive/ao$/oa/                   # hoa => hao
     - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
-
+  punctuator:
+    full_shape:
+      "\\" : {commit: 、}
+      "[" : "["
+      "]" : "]"
+      "{" : "{"
+      "}" : "}"
+      "." : {commit: 。}
+      "," : {commit: ，}
+      "<" : {commit: 《}
+      ">" : {commit: 》}
+      "?" : { commit: ？ }
+      ";" : { commit: ； }
+      ":" : ：
+      "'" : { pair: [ "‘", "’" ] }
+      "\"" : { pair: [ "“", "”" ] }
+      "|" : {commit: ・}
+      "`" : {commit: ｀}
+      "~" : "~"
+      "!" : { commit: ！ }
+      "^" : { commit: …… }
+      "(" : （
+      ")" : ）
+      "_" : ——
+    half_shape:
+      "\\" : {commit: 、}
+      "[" : "["
+      "]" : "]"
+      "{" : "{"
+      "}" : "}"
+      "." : {commit: 。}
+      "," : {commit: ，}
+      "<" : {commit: 《}
+      ">" : {commit: 》}
+      "?" : { commit: ？ }
+      ";" : { commit: ； }
+      ":" : ：
+      "'" : { pair: [ "‘", "’" ] }
+      "\"" : { pair: [ "“", "”" ] }
+      "|" : {commit: ・}
+      "`" : {commit: ｀}
+      "~" : "~"
+      "!" : { commit: ！ }
+      "^" : { commit: …… }
+      "(" : （
+      ")" : ）
+      "_" : ——
